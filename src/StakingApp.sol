@@ -9,6 +9,6 @@ contract StakingApp {
     address public StakingToken;
 
     constructor(address stakingToken_, address admin_) {
-        stakingToken = stakingToken_;
+        StakingToken = stakingToken_;
     }
 }
