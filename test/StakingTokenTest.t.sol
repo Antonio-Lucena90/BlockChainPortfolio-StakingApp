@@ -26,7 +26,8 @@ contract StakingTokenTest is Test {
     stakingToken.mint(amount_);
     
     //TokenBalance after
-    uint256 balanceAfter_ = IERC20(address(stakingToken)).balanceOf(ramdonUser);
+    uint256 balanceAfter_ = IERC20(address(stakingToken)).balanceOf(ramdonUser
+    );
 
     assert(balanceAfter_ - balanceBefore_ == amount_);
     
